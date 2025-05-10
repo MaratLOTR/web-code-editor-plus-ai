@@ -1,0 +1,33 @@
+.panel {
+  background: #2d2d2d;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.runButton {
+  width: 100%;
+  padding: 1rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0 0 8px 8px;
+}
+
+.runButton:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+}
+
+.runButton:active {
+  transform: translateY(0);
+}
+
+/* Кастомные стили для редактора */
+.editorContainer {
+  padding: 1rem;
+}

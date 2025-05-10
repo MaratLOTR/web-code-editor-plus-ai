@@ -1,0 +1,50 @@
+.outputContainer {
+  margin-top: 2rem;
+  background: #2d2d2d;
+  border-radius: 8px;
+  padding: 1.5rem;
+  min-height: 150px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header h3 {
+  margin: 0;
+  color: #4CAF50;
+}
+
+.resetButton {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.resetButton:hover {
+  background: #b71c1c;
+}
+
+.output {
+  white-space: pre-wrap;
+  margin: 0;
+  padding: 1rem;
+  background: #1a1a1a;
+  border-radius: 4px;
+  min-height: 100px;
+  font-family: 'Fira Code', monospace;
+  overflow-x: auto;
+}
+
+.error {
+  color: #ff5252;
+  padding: 1rem;
+  background: rgba(255, 82, 82, 0.1);
+  border-radius: 4px;
+  border-left: 4px solid #ff5252;
+}

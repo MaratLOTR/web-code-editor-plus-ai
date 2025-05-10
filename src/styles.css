@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  font-family: 'Fira Code', 'Consolas', monospace;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
